@@ -1,0 +1,271 @@
+ul{list-style: none;}
+.w{
+    width: 1200px;
+    margin: 0px auto;
+}
+.head{
+    height: 30px;
+    background: yellow;
+    overflow: hidden;
+    line-height: 30px;
+}
+.left{
+    float: left;
+}
+.left li{
+    float: left;
+}
+.right{
+    float: right;
+}
+.right ul li {
+    float: left;
+    margin-left: 20px;
+}
+.nav{
+    position: relative;
+    height: 80px;
+
+    overflow: hidden;
+}
+
+.nav a[title="品邮购"]{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    float: left;
+    width: 178px;
+    height: 71px;
+    background: url("../images/logo.png") no-repeat ;
+}
+.search{
+    position: absolute;
+    top: 10px;
+    left: 350px;
+    width: 531px;
+    height: 37px;
+    background: yellow;
+}
+.search input{
+    position: absolute;
+    border: 2px solid red;
+    padding: 9px;
+
+
+    width: 455px;
+    height: 37px;
+}
+.search button{
+    float: right;
+    width: 86px;
+    height: 37px;
+    border: 2px solid red;
+    background: red;
+    color: white;
+    font-size: 18px;
+}
+.search_bottom{
+    position: absolute;
+    left: 347px;
+    top: 56px;
+    color: black;
+}
+.search_bottom a{
+    padding: 2px 10px;
+    font-size: 14px;
+}
+.mycart{
+    position: absolute;
+    right: 70px;
+    top: 23px;
+    width: 143px;
+    height: 31px;
+    background: yellow;
+    line-height: 31px;
+}
+.mycart::before{
+    content: '1';
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.mycart::after{
+    content: '2';
+    margin-left: 10px;
+}
+.mycart .number{
+    position: absolute;
+    top: -8px;
+    left: 105px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50% 50% 50% 0;
+    background: red;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+}
+.goods{
+
+    height: 42px;
+    border-bottom: 2px solid #b1191a;
+    /*
+    height: 50px;
+    background: yellow;
+    border-bottom: 2px solid red;
+*/
+}
+.goods_w{
+    width: 1200px;
+    margin: 10px auto;
+    background: black;
+}
+.goods_left{
+    float: left;
+}
+.goods_left .dt{
+    width: 212px;
+    height: 40px;
+    background-color: #b1191a;
+    font-size: 17px;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+}
+.goods_left .dd{
+
+    width: 212px;
+    height: 405px;
+    background-color: #c81623;
+
+    margin-top: 0px;
+}
+
+.goods_right{
+    float: left;
+}
+.goods_right ul li{
+    float: left;
+    color: white;
+
+}
+.goods_right ul li a{
+    display: block;
+    font-size: 20px;
+    padding: 3px 18px;
+    height: 30px;
+    margin-left: 10px;
+}
+.goods_left .dd ul li a{
+
+
+    color: white;
+    font-size: 15px;
+}
+.goods_left .dd ul li{
+    padding-left: 10px;
+
+    line-height: 27px;
+    width: 200px;
+    height: 27px;
+}
+.goods_left .dd ul li::after{
+    content: '>';
+}
+.goods_left .dd ul li:hover {
+    background-color: #fff;
+}
+.goods_left .dd ul li:hover a{
+    color: red;
+}
+
+.footer{
+    height: 395px;
+    background-color: #f5f5f5;         /**/
+
+}
+.footer .top{
+    height: 102px;
+    border-bottom: 1px solid #ccc;        /*ededed*/
+    padding-top: 28px;
+}
+.footer_w{
+    width: 1200px;
+    margin: 0px auto;
+}
+.footer .top .pic{
+    float: left;
+    width: 172px;
+    height: 51px;
+    background-color: yellow;
+    margin-left: 20px;
+    margin-right: 100px;
+    padding: 2px;
+}
+.pic_pic{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url("../images/icons.png") -253px -3px;
+    margin-right: 5px;
+}
+.middle{
+    height: 175px;
+
+
+    padding: 13px 43px;
+    border-bottom: 1px solid #ccc;
+}
+.middle .middle_service:nth-child(-n+5){
+    float: left;
+    margin-right: 90px;
+    width: 100px;
+    height: 150px;
+
+    padding-left: 5px;
+}
+.middle_service p{
+
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.middle_service span{
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.middle_service ul li a{
+    display: block;
+    font-size: 10px;
+    margin-top: 2px;
+
+}
+.middle .middle_service:nth-child(6){
+    float: left;
+    width: 100px;
+    height: 150px;
+
+
+}
+.middle_service img{
+    margin-top: 5px;
+
+}
+.middle_service h2{
+    margin-left: 10px;
+}
+.down{
+    padding-top: 22px;
+
+}
+.links{
+    width: 771px;
+    height: 19px;
+    margin: 0 auto;
+}
+.copyright{
+    width: 725px;
+    height: 28px;
+    margin: 10px auto;
+    text-align: center;
+}
